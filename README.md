@@ -1,5 +1,7 @@
 # KAWSAY
 
+🌐 **KAWSAY en línea:** https://studioracc.github.io/KAWSAY/
+
 📂 **Documentos, protocolo de evaluación, reglas y casos (GITHUB):** https://drive.google.com/drive/folders/1ZZ9v3oaiRdADXHrcT7BSX4mDLxpXcypx
 
 Simulador recuperado: ejecutar `Simulador-KAWSAY.cmd` o consultar
