@@ -2,6 +2,10 @@
 
 🌐 **KAWSAY en línea:** https://studioracc.github.io/KAWSAY/
 
+🎥 **Video de KAWSAY:** https://www.youtube.com/watch?v=e90Vaq7Fgk8
+
+[![Ver el video de KAWSAY en YouTube](https://img.youtube.com/vi/e90Vaq7Fgk8/hqdefault.jpg)](https://www.youtube.com/watch?v=e90Vaq7Fgk8)
+
 📂 **Documentos, protocolo de evaluación, reglas y casos (GITHUB):** https://drive.google.com/drive/folders/1ZZ9v3oaiRdADXHrcT7BSX4mDLxpXcypx
 
 Simulador recuperado: ejecutar `Simulador-KAWSAY.cmd` o consultar
