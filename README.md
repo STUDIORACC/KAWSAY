@@ -8,6 +8,16 @@
 
 📂 **Documentos, protocolo de evaluación, reglas y casos (GITHUB):** https://drive.google.com/drive/folders/1ZZ9v3oaiRdADXHrcT7BSX4mDLxpXcypx
 
+## Equipo KUNTUR X
+
+| N.º | Integrante |
+|---|---|
+| 1 | Claudia Magaly Pinto Santos |
+| 2 | Rodrigo Andree Coronel Carcasi |
+| 3 | Milagros Nicole Villegas Suarez |
+| 4 | Liu Bryan Cayllahua Huaringa |
+| 5 | Yeremi Alexander Camacho Solis |
+
 Simulador recuperado: ejecutar `Simulador-KAWSAY.cmd` o consultar
 [fuentes, comandos y límites](docs/SIMULADOR_RECUPERADO.md).
 Incluye ocho vistas y almacenamiento local; el envío desde este simulador a la API SQL sigue pendiente.
