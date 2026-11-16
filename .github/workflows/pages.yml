@@ -22,12 +22,22 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: data-kit/package-lock.json
+      - name: Compilar el motor NEWS2 para el navegador
+        run: |
+          npm ci --prefix data-kit
+          npm run build --prefix data-kit
       - name: Armar el sitio estático
         run: |
           mkdir _site
           cp index.html _site/index.html
           cp kawsay-simulador.html _site/simulador.html
           cp -r app/public/data _site/data
+          cp data-kit/dist/engine.js _site/engine.js
           touch _site/.nojekyll
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

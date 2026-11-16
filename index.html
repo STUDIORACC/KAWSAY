@@ -316,6 +316,6 @@ document.addEventListener('submit',e=>{if(e.target.id==='emergency-form'){e.prev
 window.addEventListener('online',()=>render());window.addEventListener('offline',()=>render());
 recoverDaily();aiRecover();render();loadData();syncCycle();
 // NEWS2 engine (dist/engine.js): loaded separately so startup does not depend on it; the page is redrawn when it arrives.
-{const es=document.createElement('script');es.src='/engine.js';es.onload=()=>render();es.onerror=()=>render();document.head.appendChild(es)}
+{const es=document.createElement('script');es.src='engine.js';es.onload=()=>render();es.onerror=()=>render();document.head.appendChild(es)}
 </script>
 </body></html>
